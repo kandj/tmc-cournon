@@ -7,7 +7,7 @@ st.set_page_config(page_title="TMC des Cournon", page_icon="🎾", layout="cente
 st.title("🎾 TMC du Tennis Club des Cournon")
 
 # Lien de votre Google Sheets (Remplacez bien par VOTRE ID de fichier !)
-SHEET_URL = "https://docs.google.com/spreadsheets/d/VOTRE_ID_DE_FICHIER/export?format=xlsx"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1BzEZQnOuA6-ut2z6VxqjhZ-G63d5O1Wi/export?format=xlsx"
 
 @st.cache_data(ttl=60)
 def load_data():
