@@ -2,17 +2,10 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Configuration de la page et style général
+# Configuration de la page
 st.set_page_config(page_title="TMC des Cournon", page_icon="🎾", layout="centered")
 
-# CSS personnalisé pour harmoniser l'affichage
-st.markdown("""
-    <style>
-    .stRadio > div { transform: scale(1.02); }
-    .stSelectbox { margin-bottom: 20px; }
-    </style>
-""", unsafe_allowed_html=True)
-
+# Titre principal
 st.title("🎾 TMC du Tennis Club des Cournon")
 
 # ==========================================
